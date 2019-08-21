@@ -1,0 +1,32 @@
+{
+    "name": "centiva/nova-video-url-field",
+    "description": "A Laravel Nova Video from URL field. Based on media24si/nova-video-url-field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "video",
+        "youtube",
+        "vimeo"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Centiva\\NovaVideoUrlField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Centiva\\NovaVideoUrlField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
